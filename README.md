@@ -1,6 +1,13 @@
+
 # crimo
 
-A new Flutter project.
+To tackle overcrowding in prisons which is often caused by delay in trial (pretrial detention), we came up with a mobile application (developed with Flutter SDK) that takes records of suspects.
+
+Once a suspect is arrested, they will be required to profile their details and using proximity algorithm to determine the nearest magistrate court and have their informations sent there.
+
+At the court endpoint,  trial date for the suspect’s case will be fixed and a judge will be assigned. When this is done, the law enforcement will get notified about an update on the case. If the case is above the court’s jurisdiction, they have an option to transfer the case to the nearest high court.
+
+The application is developed using Flutter Mobile App SDK and PHP as backend (deployed on a localhost server).
 
 ## Getting Started
 
